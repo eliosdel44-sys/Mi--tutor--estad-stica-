@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor de Estadística - Master Barista Workshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Tutor Interactivo de Estadística</h1>
+        <div id="chat-box" class="chat-box">
+            <div class="message tutor">
+                ¡Hola! Soy su tutor. Basado en el libro de OpenStax, hoy aprenderemos sobre la <strong>Media Aritmética</strong>. <br><br>
+                Teoría (20%): La media es la suma de todos los datos dividida para el número total de datos. <br><br>
+                <strong>¡Vamos a la práctica! (80%):</strong> Imagine que tenemos estos datos de tiempos de filtrado de café: 10, 15, 20. <br>
+                ¿Cuál es la media?
+            </div>
+        </div>
+        <div class="input-area">
+            <input type="number" id="user-input" placeholder="Escriba su respuesta aquí...">
+            <button onclick="checkAnswer()">Enviar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
